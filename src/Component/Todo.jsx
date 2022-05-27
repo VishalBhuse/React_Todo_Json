@@ -17,7 +17,7 @@ export const Todo = (props) => {
           }
         }}
       >
-        +
+        Save
       </button>
 
       <input className="inputtodos"

@@ -7,16 +7,52 @@
       "id": 1
     },
     {
-      "iscomplate": true,
+      "iscomplate": false,
       "fevrate": false,
       "value": "Samsung",
       "id": 2
     },
     {
+      "iscomplate": true,
+      "fevrate": false,
+      "value": "Lava",
+      "id": 3
+    },
+    {
+      "iscomplate": true,
+      "fevrate": false,
+      "value": "Moto",
+      "id": 4
+    },
+    {
       "iscomplate": false,
       "fevrate": false,
-      "value": "note2",
+      "value": "Note2",
       "id": 5
+    },
+    {
+      "iscomplate": false,
+      "fevrate": false,
+      "value": "Note3",
+      "id": 6
+    },
+    {
+      "iscomplate": true,
+      "fevrate": false,
+      "value": "Note5",
+      "id": 7
+    },
+    {
+      "iscomplate": false,
+      "fevrate": false,
+      "value": "Note6",
+      "id": 8
+    },
+    {
+      "iscomplate": false,
+      "fevrate": false,
+      "value": "X-series",
+      "id": 9
     }
   ]
 }

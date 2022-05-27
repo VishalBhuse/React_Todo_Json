@@ -1,25 +1,32 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import Pagi from './Component/Pagi';
 import { Todo } from './Component/Todo';
 import { Todolist } from './Component/Todolist';
+import axios from 'axios';
+
 
 function App() {
   const [todo, settodo]= React.useState([]);
+  const [page, setpage] = useState(1);
+  const [limit, setlimit] = useState(0);
 
+  console.log(page)
   
 const todomain = ()=>{
 
-  fetch("http://localhost:3004/posts")
-  .then((res)=> res.json())
+  axios.get(`http://localhost:3004/posts?_page=${page}&_limit=4`)
   .then((d)=>{
     console.log(d)
-    settodo(d)
+    settodo(d.data)
+    setlimit(d.headers['x-total-count'])
+    console.log(limit)
   })
 }
 
 useEffect(()=>{
   todomain()
-},[])
+},[page])
     
 
   const todoinput=(str)=>{
@@ -86,6 +93,7 @@ useEffect(()=>{
         markasfev={markasfev}
         removeds={removeds}
         />
+        <Pagi limits={limit} page={page} setpage={setpage}/>
     </div>
   );
 }
