@@ -1,0 +1,82 @@
+body{
+  color: #fff;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXY3aV14gldIOSL0ZJS0dZRapgGzpMNsOC1HASzlM1XU8mSmiHLzFUchOAw5E1Wrgiuys&usqp=CAU');
+}
+
+.App {
+  text-align: center;
+  border-radius: 5px;
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 40%;
+  margin: 20px auto;
+  height: auto;
+  overflow: auto;
+  filter: brightness(90%);
+}
+
+
+.shwocom{
+  border-radius: 5px;
+  background-color: #839476;
+  color: white;
+  width: 81%;
+  margin: 10px auto;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.TodoItem {
+  margin: 10px auto;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid rgb(204, 197, 197);
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.TodoItem div{
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  padding-left: 5px;
+  
+}
+
+.inputtodos{
+  width: 75%;
+  background-color: #839476;
+  color: #fff !important;
+  margin-top: 15px;
+  outline: none;
+  border: 0px;
+  height: 40px;
+  font-size: 18px;
+
+}
+.addbtn{
+  color: #fff;
+  background-color: #839476;
+  width: 8%;
+  height: 41px;
+  font-size: 20px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  
+}
+
+.deleteicon{
+  cursor: pointer;
+  font-size: 25px;
+  color: red;
+  font-weight: 800;
+}

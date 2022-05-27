@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "iscomplate": false,
+      "fevrate": false,
+      "value": "Nokia",
+      "id": 1
+    },
+    {
+      "iscomplate": true,
+      "fevrate": false,
+      "value": "Samsung",
+      "id": 2
+    },
+    {
+      "iscomplate": false,
+      "fevrate": false,
+      "value": "note2",
+      "id": 5
+    }
+  ]
+}
