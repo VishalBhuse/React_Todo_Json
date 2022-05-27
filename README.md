@@ -1,3 +1,7 @@
+#Sample Output : create todo lisat using Pagination in url handled using useEffect and GET data from json-server.
+![image](https://user-images.githubusercontent.com/101569259/170643858-51b685b2-9ee7-4ff8-8998-51db8a487f93.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
